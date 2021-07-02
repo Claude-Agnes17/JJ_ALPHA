@@ -4,10 +4,12 @@ import random
 import socket
 import threading
 from colorama import Fore, init
+print("======================================\n")
 print(''' ═╦═ ═╦═   ╔═╗  ╦    ╦═╗  ╦ ╦  ╔═╗
   ║   ║    ╠═╣  ║    ╠═╝  ╠═╣  ╠═╣
  ═╝  ═╝    ╩ ╩  ╚══  ╩    ╩ ╩  ╩ ╩
 ''')
+print("======================================\n")
 ip = str(input("Target IP : "))
 port = int(input("PORT : "))
 choice = "y",

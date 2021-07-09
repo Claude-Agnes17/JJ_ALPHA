@@ -4,12 +4,11 @@ import random
 import socket
 import threading
 from colorama import Fore, init
-print("======================================\n")
-print(''' ═╦═ ═╦═   ╔═╗  ╦    ╦═╗  ╦ ╦  ╔═╗
-  ║   ║    ╠═╣  ║    ╠═╝  ╠═╣  ╠═╣
- ═╝  ═╝    ╩ ╩  ╚══  ╩    ╩ ╩  ╩ ╩
-''')
-print("======================================\n")
+import pyfiglet
+
+banner = pyfiglet.figlet_format("JJ  ALPHA")
+print(banner)
+
 ip = str(input("Target IP : "))
 port = int(input("PORT : "))
 choice = "y",
